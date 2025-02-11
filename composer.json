@@ -1,0 +1,20 @@
+{
+    "name": "olabu/maaa-portfolio",
+    "description": "A portfolio website for showcasing my work.",
+    "type": "library",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Olabu\\MaaaPortfolio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Owalabu Tolessa",
+            "email": "owalabutole@gmail.com"
+        }
+    ]
+}
